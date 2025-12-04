@@ -26,8 +26,6 @@ package ack2025
 
 import println
 import readInput
-import java.math.BigInteger
-import kotlin.math.max
 
 fun main() {
     // input
