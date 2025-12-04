@@ -71,7 +71,7 @@ fun main() {
     part1(input).println()
 
 
-    // part 1
+    // part 2
     fun part2(input: List<String>): Int {
         val row = input.size
         val column = input[0].length
@@ -120,6 +120,7 @@ fun main() {
                 }
             }
 
+            // if count zero means should end loops
             if (count == 0) {
                 break
             } else {
